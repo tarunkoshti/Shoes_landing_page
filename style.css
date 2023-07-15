@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    
+}
+.logo{
+    position: absolute;
+    height: 70px;
+    left: 8%;
+    top: 3%;
+}
+#nav{
+    position: absolute;
+    height: 100%;
+    width: 5%;
+    box-shadow: 5px 0 10px 1px rgba(0, 0, 0, 0.271);
+    
+}
+
+.menu{
+    padding-left: 12px;
+    padding-top: 30px;
+}
+.twitter{
+    position: absolute;
+    height: 30px;
+    bottom: 30%;
+    right: 32%;
+    
+}
+.fb{
+    position: absolute;
+    height: 40px;
+    bottom: 21%;
+    right: 28%;
+}
+
+.insta{
+    position: absolute;
+    height: 40px;
+    bottom: 5%;
+    right: 26%;
+}
+
+.yt{
+    position: absolute;
+    height: 30px;
+    bottom: 14%;
+    right: 26%;
+}
+#content{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    /* background: pink; */
+    left: 10%;
+    top: 20%;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    
+    
+}
+
+h2{
+    font-size: 50px;
+    font-weight:lighter;
+    padding-top: 5px;
+}
+
+p{
+    padding-top: 15px;
+}
+
+button{
+    position: absolute;
+   padding: 8px 50px;
+   border-radius: 40px;
+   background-color: rgb(255, 68, 0);
+   border: none;
+   color: white;
+   font-size: 20px;
+   font-weight: 100;
+   bottom: 27%;
+   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.455);
+}
+
+.circle{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    background: linear-gradient(-140deg,#FF4B1F,#ff4c1fd0,blue);
+   
+    right: 15%;
+    top: 11%;
+}
+.shoes>img{
+    position: absolute;
+    right:10%;
+    bottom: 18%;
+    height: 85%;
+}
+#back>p{
+    position: absolute;
+    bottom: 39px;
+    left: 54%;
+    height: 30px;
+}
+#refresh{
+    position: absolute;
+    bottom: 30px;
+    left: 57%;
+    height: 30px;
+}
+.box{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    bottom: 16px;
+    right: 10%;
+}
+#page1>h3{
+font-weight: 100;
+position: absolute;
+bottom: 30px;
+right: 21%;
+}
+.color{
+    
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 100%;
+
+}
+.black{
+    background-color: black;
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
